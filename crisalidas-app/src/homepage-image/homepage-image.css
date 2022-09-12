@@ -1,0 +1,22 @@
+.homepage-image {
+  background-size: cover;
+  background-repeat:no-repeat;
+}
+
+.homepage-image > img {
+  max-height: 90vh;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  width: 40%;
+  padding: 2rem 4rem;
+  text-align: left;
+  color: #115B09;
+  font-size: 30px;
+  position: absolute;
+}
+
+.call-to-action > p {
+  margin: 2rem 0;
+}

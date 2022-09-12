@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #115B09;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header-links > a {
+  margin: 1rem 2rem;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header-logo {
+  max-height: 4rem;
+  margin: 2rem 0;
+}
