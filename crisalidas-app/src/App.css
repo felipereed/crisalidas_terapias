@@ -21,3 +21,14 @@
 .App-link {
   color: #61dafb;
 }
+
+.mobile-background {
+  max-width: 100vw;
+}
+
+.app-call-to-action-text {
+  margin: 1rem;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #115B09;
+}
