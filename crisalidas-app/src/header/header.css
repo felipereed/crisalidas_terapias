@@ -1,10 +1,18 @@
 .header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
   background-color: #115B09;
-  min-height: 10vh;
   margin: 0 auto;
+  padding: .5rem;
+}
+
+.header-menu-container {
+  text-align: left;
+}
+
+.header-logo-container {
+  display: flex;
+  justify-content: center;
 }
 
 .header-links {
@@ -12,12 +20,11 @@
 }
 
 .header-links > a {
-  margin: 1rem 2rem;
+  margin: .5rem;
   text-decoration: none;
   color: aliceblue;
 }
 
 .header-logo {
-  max-height: 4rem;
-  margin: 2rem 0;
+  max-height: 150px;
 }
