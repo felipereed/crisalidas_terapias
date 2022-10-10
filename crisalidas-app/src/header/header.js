@@ -1,17 +1,19 @@
 import React from "react";
-import './header.css'
+import Menu from "../menu/menu";
+import "./header.css";
 
-function Header() {
+function Header({ toggleHandler }) {
+  const handleHamburgerToggle = (opened) => {
+    toggleHandler(opened);
+  };
+
   return (
     <div className="header">
-      <div>
-        <img className="header-logo" src="./logocrisalidas.png" alt="logo" />
+      <div className="header-menu-container">
+        <Menu toggleHandler={handleHamburgerToggle} />
       </div>
-      <div className="header-links">
-        <a href="">SOBRE MIM</a>
-        <a href="">SERVIÇOS</a>
-        <a href="">BLOG</a>
-        <a href="">CONTATO</a>
+      <div className="header-logo-container">
+        <img className="header-logo" src="./Asset 8.png" alt="logo" />
       </div>
     </div>
   );
