@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./menu.css"
 
 export default function MenuList({ closeDropdown }) {
   return (
-    <ul>
+    <ul className='menu-items'>
       <li><Link className="header-dropdown-menu-links" to="/" onClick={closeDropdown}>INÍCIO</Link></li>
       <li><Link className="header-dropdown-menu-links" to="/sobre-mim" onClick={closeDropdown}>SOBRE MIM</Link></li>
       <li><a className="header-dropdown-menu-links" href="#home-services" onClick={closeDropdown}>SERVIÇOS</a></li>
