@@ -11,13 +11,13 @@ const Contact = () => {
         <button className="button">AGENDAR</button>
         <div className="contact-social-container">
           <a className="contact-social-link" href="" target="_blank">
-            <img className="contact-social-image" src="./email.png" />
+            E-mail
           </a>
           <a className="contact-social-link" href="" target="_blank">
-            <img className="contact-social-image" src="./instagram.png" />
+            Instagram
           </a>
           <a className="contact-social-link" href="" target="_blank">
-            <img className="contact-social-image" src="./whatsapp.png" />
+            WhatsApp
           </a>
         </div>
       </div>

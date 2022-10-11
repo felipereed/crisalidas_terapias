@@ -12,10 +12,17 @@
 }
 
 .contact-social-container {
-  margin: 6rem auto 0 auto;
+  margin: 4rem auto 0 auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   width: 70%;
+}
+
+.contact-social-container > a {
+  text-decoration: none;
+  margin-bottom: 2rem;
+  color: #115B09;
+  font-weight: 500;
 }
 
 .bottom-image {
