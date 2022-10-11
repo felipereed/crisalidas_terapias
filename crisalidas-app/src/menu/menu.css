@@ -49,3 +49,7 @@ hr {
 .menu-list {
   padding: 1rem 0;
 }
+
+.menu-items > li {
+  padding-bottom:2rem;
+}
