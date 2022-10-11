@@ -13,7 +13,7 @@ const Contact = () => {
           <a className="contact-social-link" href="" target="_blank">
             E-mail
           </a>
-          <a className="contact-social-link" href="" target="_blank">
+          <a className="contact-social-link" href="https://www.instagram.com/crisalidasterapias/" target="_blank">
             Instagram
           </a>
           <a className="contact-social-link" href="" target="_blank">
