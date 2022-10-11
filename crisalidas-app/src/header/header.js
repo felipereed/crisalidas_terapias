@@ -11,9 +11,10 @@ function Header({ toggleHandler }) {
     <div className="header">
       <div className="header-menu-container">
         <Menu toggleHandler={handleHamburgerToggle} />
+        <img className="butterfly" src="./butterfly.png" alt="" />
       </div>
       <div className="header-logo-container">
-        <img className="header-logo" src="./Asset 8.png" alt="logo" />
+        <img className="header-logo" src="./Asset 11.png" alt="logo" />
       </div>
     </div>
   );
